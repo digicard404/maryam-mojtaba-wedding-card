@@ -41,18 +41,4 @@ function sendRSVP(status) {
         alert("لطفاً اسم خود را وارد کنید 🌸");
         return;
     }
-
-    // شماره واتساپ مقصد
-    let phone = "989197800841"; // ← اینجا شماره عروس یا خودت +98
-
-    let text = "";
-
-    if (status === "yes") {
-        text = `سلام، من ${name} هستم.\nبرای مراسم میام 🌸`;
-    } else {
-        text = `سلام، من ${name} هستم.\nمتاسفانه نمی‌تونم بیام 💐`;
-    }
-
-    let url = `https://wa.me/${phone}?text=${encodeURIComponent(text)}`;
-    window.open(url, "_blank");
 }
