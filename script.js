@@ -41,4 +41,5 @@ function sendRSVP(status) {
         alert("لطفاً اسم خود را وارد کنید 🌸");
         return;
     }
+
 }
